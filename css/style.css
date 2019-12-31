@@ -9,7 +9,7 @@
 Table of contents
 
 1. Loader
-2. Helper classes 
+2. Helper classes
 3. Buttons
 4. Navbar
 5. Home
@@ -174,13 +174,13 @@ h6 {
     position: absolute;
     background: #77a1d3;
     /* fallback for old browsers */
-    
+
     background: -webkit-linear-gradient(to right, #77a1d3, #79cbca, #e684ae);
     /* Chrome 10-25, Safari 5.1-6 */
-    
+
     background: linear-gradient(to right, #77a1d3, #79cbca, #e684ae);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    
+
     opacity: 0.95;
     height: 100%;
     width: 100%;
@@ -324,6 +324,7 @@ header .btn-new {
     color: #ffffff;
     background: url("../images/bg.jpg");
     background-size: cover;
+    background-position: right;
 }
 .home h1 {
     font-weight: 100;
@@ -607,7 +608,7 @@ address {
 }
 
 /*=========
- 15. Responsive 
+ 15. Responsive
   =========*/
 
 @media (max-width: 768px){
